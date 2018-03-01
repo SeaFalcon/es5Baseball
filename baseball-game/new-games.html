@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS 3.3.7 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Baseball Game</title>
+</head>
+
+<body>
+  <header class="top">
+    <div class="container">
+      <div class="menu">																
+        <a href="#" class="right_bt" id="activator">
+          <i class="fas fa-bars fa-2x"></i>
+        </a>    
+      </div>
+      <div class="logo">
+        <a href="index.html">Baseball Game</a>
+      </div>
+    </div>
+  </header>
+  <section class="main">
+    <div class="container digit-selector">
+      <h2>자리수를 선택하여 주세요.</h2>
+      <div class="number-selector">
+        <a id="minus-btn" class="btn btn-link minus">
+          <i class="fas fa-minus fa-4x"></i>
+        </a>
+        <div id="digit-number" class="number-circle">3</div>
+        <a id="plus-btn" class="btn btn-link plus">
+          <i class="fas fa-plus fa-4x"></i>
+        </a>
+      </div>
+      <a id="start-btn" type="button" href="./games-started.html" class="btn btn-default btn-block">시작하기</a>
+    </div>
+    <div class="container game-main">
+  <div class="digit-input-container">
+    <!-- <input type="text" maxlength="1" class="digit-input" placeholder="•">
+    <input type="text" maxlength="1" class="digit-input" placeholder="•">
+    <input type="text" maxlength="1" class="digit-input" placeholder="•">
+    <input type="text" maxlength="1" class="digit-input" placeholder="•"> -->
+  </div>
+      <ul class="list-group result-container">
+        <!-- <li class="list-group-item">
+          <span class="guess">123</span>
+          <span class="badge result">OUT</span>
+        </li>
+        <li class="list-group-item">
+          <span class="guess">456</span>
+          <span class="badge result">OUT</span>
+        </li>
+        <li class="list-group-item">
+          <span class="guess">789</span>
+          <span class="badge result">OUT</span>
+        </li> -->
+      </ul>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
